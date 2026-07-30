@@ -4,7 +4,7 @@ function Signin() {
     return (
         <div className="bg-slate-900 flex items-center justify-center min-h-screen">
             <div className="flex flex-col items-center justify-center gap-4 p-4 text-white w-109 ">
-                <img src="./public/tailwind-css-brands-solid.png" alt="tailwind logo" className="w-12 mb-7" />
+                <img src="/tailwind-css-brands-solid.png" alt="tailwind logo" className="w-12 mb-7" />
                 <h2 className="text-2xl font-bold text-center mb-7">Sign in to your account</h2>
                 <form action="#" className='flex flex-col justify-center text w-full mb-7'>
                     <label htmlFor="email" className=' font-semibold mb-1'>Email address</label>

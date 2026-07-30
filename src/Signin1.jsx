@@ -4,7 +4,7 @@ function Signin1() {
         <div className="bg-slate-900 flex items-center justify-center min-h-screen">
             <div className="flex flex-col items-center justify-center gap-4 p-4 text-white w-120 ">
                 <div className='flex flex-col items-center justify-center text w-full mb-7'>
-                    <img src="./public/tailwind-css-brands-solid.png" alt="tailwind logo" className="w-12 mb-7" />
+                    <img src="/tailwind-css-brands-solid.png" alt="tailwind logo" className="w-12 mb-7" />
                     <h2 className="text-2xl font-bold text-center">Sign in to your account</h2>
                 </div>
                 <div className='flex bg-slate-800 items-center justify-center text w-full mb-7 border border-gray-700 rounded-lg p-9'>

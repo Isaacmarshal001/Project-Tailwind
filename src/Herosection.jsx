@@ -5,7 +5,7 @@ function Herosection() {
         <div className="flex flex-col min-h-screen text-center font-bold text-white w-screen bg-black">
             <div className="flex bg-transparent absolute top-0 left-0 z-10 items-center justify-between py-5 px-12  w-full">
                 <div className="flex items-center justify-center">
-                    <img src="./public/tailwind-css-brands-solid.png" alt="logo" className="w-7 font-bold" />
+                    <img src="/tailwind-css-brands-solid.png" alt="logo" className="w-7 font-bold" />
                 </div>
                 <div className="flex items-center justify-center gap-4">
                     <a href="#">Product</a>
