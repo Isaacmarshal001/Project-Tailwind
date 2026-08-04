@@ -25,7 +25,7 @@ function Alldesign() {
     return (
         <div className="mx-auto bg-slate-500 flex flex-col items-center justify-center min-h-screen p-7">
             <h1 className="text-4xl text-center text-white font-bold">All Design</h1>
-            <div className="mx-auto flex flex-wrap items-center justify-center gap-4 max-h-screen mt-9 p-4">
+            <div className="mx-auto flex flex-wrap items-center justify-center gap-4 lg:max-h-screen md:max-height-screen sm:min-height-screen mt-9 p-4">
                 {
                     pages.map((pages, index) => (
                         <Link key={index} to={pages.Key_page}>
