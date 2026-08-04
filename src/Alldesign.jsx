@@ -23,13 +23,13 @@ function Alldesign() {
     ];
 
     return (
-        <div className="mx-auto bg-slate-700 flex flex-col items-center justify-center min-h-screen p-7">
-            <h1>All Design</h1>
-            <div className="mx-auto flex flex-wrap items-center  gap-4 min-h-screen p-4">
+        <div className="mx-auto bg-slate-500 flex flex-col items-center justify-center min-h-screen p-7">
+            <h1 className="text-4xl text-center text-white font-bold">All Design</h1>
+            <div className="mx-auto flex flex-wrap items-center justify-center gap-4 max-h-screen mt-9 p-4">
                 {
                     pages.map((pages, index) => (
                         <Link key={index} to={pages.Key_page}>
-                            <div className="bg-blue-900 min-h-15 flex flex-col items-center justify-center gap-4 rounded-xl py-4 px-= hover:h-14 hover:w-30 text-left text-white">
+                            <div className="bg-blue-900 flex flex-col items-center justify-center gap-4 h-38 w-62 hover:h-40 hover:w-64 rounded-xl p-4 shadow-2xl/50 shadow-white text-left text-white">
                                 <h3 className='text-xl font-semibold'>{pages.name}</h3>
                                 <p className=' text-gray-500 font-semibold'>Click to visit page</p>
                             </div>
