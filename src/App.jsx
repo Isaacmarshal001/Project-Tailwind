@@ -1,11 +1,12 @@
-import Herosection from "./Herosection";
-import Signin from "./Signin";
-import Signin1 from "./Signin1";
+import { Link } from 'react-router'
+import Portfolio from './Alldesign'
+import Alldesign from './Alldesign';
 
 function App() {
   return (
     <div>
-      <Herosection />
+      {/* <Portfolio /> */}
+      <Alldesign />
     </div>
   )
 }

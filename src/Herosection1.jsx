@@ -1,6 +1,6 @@
 import { Link } from 'react-router'
 
-function Herosection() {
+function Herosection1() {
     return (
         <div className="flex flex-col min-h-screen text-center font-bold text-white w-screen bg-black">
             <div className="flex bg-transparent absolute top-0 left-0 z-10 items-center justify-between py-5 px-12  w-full">
@@ -14,7 +14,7 @@ function Herosection() {
                     <a href="#">Company</a>
                 </div>
                 <div className="flex items-center justify-center">
-                    <Link to="/signin">Login</Link>
+                    <Link to="/signin1">Login</Link>
                 </div>
             </div>
 
@@ -33,4 +33,4 @@ function Herosection() {
     )
 }
 
-export default Herosection;
+export default Herosection1;
