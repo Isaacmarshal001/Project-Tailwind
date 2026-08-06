@@ -41,11 +41,11 @@ function Pricing1() {
                         <button className="bg-violet-500 p-2 rounded-sm font-bold mt-7">Get started today</button>
                     </div>
                 </div>
-                <div className="bg-slate-700 flex flex-col items-center justify-center">
+                <div className="bg-slate-500/5 flex flex-col justify-center mt-9 rounded-2xl  text-left border border-slate-700 p-7">
                     <p className="text-violet-500 text-left">Discounted</p>
-                    <div className="flex items-center justify-between">
-                        <p>Dolor dolores repudiandae doloribus. Rerum sunt aut eum. Odit omnis non voluptatem sunt eos nostrum.</p>
-                        <button className="">Buy discounted license <ArrowRightIcon /> </button>
+                    <div className="flex items-center justify-between gap-4 mt-4">
+                        <p className="text-left w-[65%]">Dolor dolores repudiandae doloribus. Rerum sunt aut eum. Odit omnis non voluptatem sunt eos nostrum.</p>
+                        <button className="bg-slate-50/15 flex items-center justify-center gap-4 p-2 rounded-sm">Buy discounted license <ArrowRightIcon /> </button>
                     </div>
                 </div>
             </div>

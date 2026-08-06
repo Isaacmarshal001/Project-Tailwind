@@ -3,7 +3,7 @@ import Alldesign from "./Alldesign";
 
 function App() {
   return (
-    <div>
+    <div className="bg-slate-900 mx-auto flex items-center justify-center">
       <Alldesign />
     </div>
   )
