@@ -12,6 +12,12 @@ import Bentogrid from './Bentogrid.jsx'
 import Bentogrid1 from './Bentogrid1.jsx'
 import Cta from './Cta.jsx'
 import Cta1 from './Cta1.jsx'
+import Pricing from './Pricing.jsx'
+import Pricing1 from './Pricing1.jsx'
+import Newslettersections from './Newslettersections.jsx'
+import Newslettersections1 from './Newslettersections1.jsx'
+import Statssection from './Statssection.jsx'
+import Statssection1 from './Statssection1.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -27,6 +33,12 @@ createRoot(document.getElementById('root')).render(
         <Route path="/bentogrid1" element={<Bentogrid1 />} />
         <Route path="/cta" element={<Cta />} />
         <Route path="/cta1" element={<Cta1 />} />
+        <Route path="/Pricing" element={<Pricing />} />
+        <Route path="/Pricing1" element={<Pricing1 />} />
+        <Route path="/Newslettersections" element={<Newslettersections />} />
+        <Route path="/Newslettersections1" element={<Newslettersections1 />} />
+        <Route path="/Statssection" element={<Statssection />} />
+        <Route path="/Statssection1" element={<Statssection1 />} />
       </Routes>
     </Router>
   </StrictMode>
