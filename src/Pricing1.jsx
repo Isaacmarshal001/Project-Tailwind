@@ -14,7 +14,7 @@ function Pricing1() {
                 </div>
 
                 <div className="flex flex-row items-center justify-center gap-9 text-left mt-20">
-                    <div className="flex flex-col justify-between gap-4 border border-r-0 bg-slate-50/5 border-gray-700 h-128 w-107 rounded-4xl p-7">
+                    <div className="flex flex-col justify-between gap-4 border bg-slate-50/5 border-gray-700 h-128 w-107 rounded-4xl p-7">
                         <p className="text-violet-500 font-bold">Hobby</p>
                         <h2 className="text font-bold"><span className="text-4xl">$29</span> <span className="text text-gray-400 font-bold">/month</span></h2>
                         <p className="text-gray-400 font-bold">The perfect plan if you're just getting started with our product.</p>
@@ -24,7 +24,7 @@ function Pricing1() {
                             <li className="flex items-center gap-4"><Check className="text-violet-500" /> Advanced analytics</li>
                             <li className="flex items-center gap-4"><Check className="text-violet-500" /> 24-hour support response time</li>
                         </ul>
-                        <button className="bg-violet-500 p-2 rounded-sm font-bold mt-7">Get started today</button>
+                        <button className="bg-violet-500 p-2 rounded-sm font-bold mt-7 cursor-pointer">Get started today</button>
                     </div>
                     <div className="flex flex-col justify-between gap-4 border bg-slate-50/5 border-gray-700 h-128 w-107 rounded-4xl p-7 z-10 shadow-4xl shadow-black">
                         <p className="text-violet-500 font-bold">Team</p>
@@ -41,7 +41,7 @@ function Pricing1() {
                         <button className="bg-violet-500 p-2 rounded-sm font-bold mt-7">Get started today</button>
                     </div>
                 </div>
-                <div className="bg-slate-500/5 flex flex-col justify-center mt-9 rounded-2xl  text-left border border-slate-700 p-7">
+                <div className="bg-slate-500/5 flex flex-col justify-center my-9 rounded-2xl  text-left border border-slate-700 p-7">
                     <p className="text-violet-500 text-left">Discounted</p>
                     <div className="flex items-center justify-between gap-4 mt-4">
                         <p className="text-left w-[65%]">Dolor dolores repudiandae doloribus. Rerum sunt aut eum. Odit omnis non voluptatem sunt eos nostrum.</p>

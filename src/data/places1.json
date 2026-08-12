@@ -1,0 +1,1072 @@
+{
+    "places": [
+        {
+            "id": 1,
+            "name": "The Presidential Hotel",
+            "category": "Hotel",
+            "description": "A luxury hotel offering premium rooms, conference facilities, and top-notch hospitality in Port Harcourt.",
+            "location": {
+                "address": "23 Olu Obasanjo Road, Port Harcourt, Rivers State",
+                "city": "Port Harcourt",
+                "state": "Rivers State",
+                "country": "Nigeria",
+                "coordinates": {
+                    "latitude": 4.8175,
+                    "longitude": 7.0423
+                }
+            },
+            "contact": {
+                "phone": "+234 803 456 7890",
+                "email": "reservations@presidentialhotel.com",
+                "website": "https://presidentialhotel.com"
+            },
+            "capacity": {
+                "rooms": 120,
+                "events": 500
+            },
+            "pricing": {
+                "currency": "NGN",
+                "min": 50000,
+                "max": 250000,
+                "priceType": "per night"
+            },
+            "rating": {
+                "average": 4.4,
+                "totalReviews": 144
+            },
+            "amenities": [
+                "Free WiFi",
+                "Swimming Pool",
+                "Restaurant",
+                "Gym",
+                "Conference Hall",
+                "Parking",
+                "24/7 Room Service"
+            ],
+            "images": [
+                "/images/presidentialhotel-ph-1.jpg",
+                "/images/presidentialhotel-ph-2.jpg"
+            ],
+            "testimonials": [
+                {
+                    "name": "Adaeze Okeke",
+                    "rating": 5,
+                    "comment": "Loved the ambiance and service!"
+                },
+                {
+                    "name": "Chidi Nwosu",
+                    "rating": 4,
+                    "comment": "Great location and clean rooms."
+                }
+            ],
+            "openingHours": {
+                "monday": "Open 24 hours",
+                "tuesday": "Open 24 hours",
+                "wednesday": "Open 24 hours",
+                "thursday": "Open 24 hours",
+                "friday": "Open 24 hours",
+                "saturday": "Open 24 hours",
+                "sunday": "Open 24 hours"
+            },
+            "featured": true
+        },
+        {
+            "id": 2,
+            "name": "Iva Valley Resort",
+            "category": "Hotel",
+            "description": "A serene resort with comfortable rooms, a pool, and conference facilities, located in Iva Valley.",
+            "location": {
+                "address": "Iva Valley, Port Harcourt, Rivers State",
+                "city": "Port Harcourt",
+                "state": "Rivers State",
+                "country": "Nigeria",
+                "coordinates": {
+                    "latitude": 4.7987,
+                    "longitude": 7.0012
+                }
+            },
+            "contact": {
+                "phone": "+234 807 890 1234",
+                "email": "info@ivavalleyresort.com",
+                "website": "https://ivavalleyresort.com"
+            },
+            "capacity": {
+                "rooms": 80,
+                "events": 300
+            },
+            "pricing": {
+                "currency": "NGN",
+                "min": 45000,
+                "max": 200000,
+                "priceType": "per night"
+            },
+            "rating": {
+                "average": 4.5,
+                "totalReviews": 89
+            },
+            "amenities": [
+                "Free WiFi",
+                "Swimming Pool",
+                "Restaurant",
+                "Gym",
+                "Conference Hall",
+                "Parking",
+                "Spa"
+            ],
+            "images": [
+                "/images/ivavalleyresort-ph-1.jpg",
+                "/images/ivavalleyresort-ph-2.jpg"
+            ],
+            "testimonials": [
+                {
+                    "name": "Ngozi Eze",
+                    "rating": 5,
+                    "comment": "Perfect getaway with excellent service!"
+                },
+                {
+                    "name": "Tunde Adebayo",
+                    "rating": 4,
+                    "comment": "Beautiful resort with great amenities."
+                }
+            ],
+            "openingHours": {
+                "monday": "Open 24 hours",
+                "tuesday": "Open 24 hours",
+                "wednesday": "Open 24 hours",
+                "thursday": "Open 24 hours",
+                "friday": "Open 24 hours",
+                "saturday": "Open 24 hours",
+                "sunday": "Open 24 hours"
+            },
+            "featured": true
+        },
+        {
+            "id": 3,
+            "name": "De Royal Hotel",
+            "category": "Hotel",
+            "description": "A mid-range hotel offering comfortable rooms and essential amenities in the heart of Port Harcourt.",
+            "location": {
+                "address": "10 Aba Road, Port Harcourt, Rivers State",
+                "city": "Port Harcourt",
+                "state": "Rivers State",
+                "country": "Nigeria",
+                "coordinates": {
+                    "latitude": 4.8189,
+                    "longitude": 7.0523
+                }
+            },
+            "contact": {
+                "phone": "+234 813 456 7890",
+                "email": "reservations@deroyalhotel.com",
+                "website": "https://deroyalhotel.com"
+            },
+            "capacity": {
+                "rooms": 60,
+                "events": 200
+            },
+            "pricing": {
+                "currency": "NGN",
+                "min": 30000,
+                "max": 120000,
+                "priceType": "per night"
+            },
+            "rating": {
+                "average": 3.8,
+                "totalReviews": 56
+            },
+            "amenities": [
+                "Free WiFi",
+                "Restaurant",
+                "Gym",
+                "Parking",
+                "24/7 Room Service"
+            ],
+            "images": [
+                "/images/deroyalhotel-ph-1.jpg",
+                "/images/deroyalhotel-ph-2.jpg"
+            ],
+            "testimonials": [
+                {
+                    "name": "Emeka Okoro",
+                    "rating": 4,
+                    "comment": "Good value for money and central location."
+                },
+                {
+                    "name": "Funmi Adewale",
+                    "rating": 3,
+                    "comment": "Rooms are clean but service can be improved."
+                }
+            ],
+            "openingHours": {
+                "monday": "Open 24 hours",
+                "tuesday": "Open 24 hours",
+                "wednesday": "Open 24 hours",
+                "thursday": "Open 24 hours",
+                "friday": "Open 24 hours",
+                "saturday": "Open 24 hours",
+                "sunday": "Open 24 hours"
+            },
+            "featured": false
+        },
+        {
+            "id": 4,
+            "name": "Amoy Garden Restaurant",
+            "category": "Restaurant",
+            "description": "A popular restaurant serving authentic Chinese cuisine in a cozy atmosphere.",
+            "location": {
+                "address": "12 Ikwerre Road, Port Harcourt, Rivers State",
+                "city": "Port Harcourt",
+                "state": "Rivers State",
+                "country": "Nigeria",
+                "coordinates": {
+                    "latitude": 4.8123,
+                    "longitude": 7.0567
+                }
+            },
+            "contact": {
+                "phone": "+234 804 567 8901",
+                "email": "hello@amoygarden.com",
+                "website": "https://amoygarden.com"
+            },
+            "capacity": {
+                "customers": 100
+            },
+            "pricing": {
+                "currency": "NGN",
+                "min": 2000,
+                "max": 15000,
+                "priceType": "per meal"
+            },
+            "rating": {
+                "average": 4.6,
+                "totalReviews": 78
+            },
+            "amenities": [
+                "Outdoor Seating",
+                "WiFi",
+                "Parking",
+                "Takeout"
+            ],
+            "images": [
+                "/images/amoygarden-ph-1.jpg",
+                "/images/amoygarden-ph-2.jpg"
+            ],
+            "testimonials": [
+                {
+                    "name": "Li Wei",
+                    "rating": 5,
+                    "comment": "Best Chinese food in Port Harcourt!"
+                },
+                {
+                    "name": "Amaka Nwosu",
+                    "rating": 4,
+                    "comment": "Great ambiance and delicious dishes."
+                }
+            ],
+            "openingHours": {
+                "monday": "11AM–10PM",
+                "tuesday": "11AM–10PM",
+                "wednesday": "11AM–10PM",
+                "thursday": "11AM–10PM",
+                "friday": "11AM–11PM",
+                "saturday": "11AM–11PM",
+                "sunday": "11AM–10PM"
+            },
+            "featured": true
+        },
+        {
+            "id": 5,
+            "name": "The Place Restaurant",
+            "category": "Restaurant",
+            "description": "A trendy restaurant offering a mix of Nigerian and continental dishes.",
+            "location": {
+                "address": "18 Aba Road, Port Harcourt, Rivers State",
+                "city": "Port Harcourt",
+                "state": "Rivers State",
+                "country": "Nigeria",
+                "coordinates": {
+                    "latitude": 4.8198,
+                    "longitude": 7.0512
+                }
+            },
+            "contact": {
+                "phone": "+234 808 901 2345",
+                "email": "contact@theplacerestaurant.com",
+                "website": "https://theplacerestaurant.com"
+            },
+            "capacity": {
+                "customers": 120
+            },
+            "pricing": {
+                "currency": "NGN",
+                "min": 1500,
+                "max": 12000,
+                "priceType": "per meal"
+            },
+            "rating": {
+                "average": 3.9,
+                "totalReviews": 67
+            },
+            "amenities": [
+                "Outdoor Seating",
+                "WiFi",
+                "Parking",
+                "Live Music (Weekends)"
+            ],
+            "images": [
+                "/images/theplacerestaurant-ph-1.jpg",
+                "/images/theplacerestaurant-ph-2.jpg"
+            ],
+            "testimonials": [
+                {
+                    "name": "Chidi Okoro",
+                    "rating": 4,
+                    "comment": "Great food and lively atmosphere!"
+                },
+                {
+                    "name": "Zainab Ibrahim",
+                    "rating": 3,
+                    "comment": "Service was slow during peak hours."
+                }
+            ],
+            "openingHours": {
+                "monday": "12PM–11PM",
+                "tuesday": "12PM–11PM",
+                "wednesday": "12PM–11PM",
+                "thursday": "12PM–11PM",
+                "friday": "12PM–12AM",
+                "saturday": "12PM–12AM",
+                "sunday": "12PM–11PM"
+            },
+            "featured": false
+        },
+        {
+            "id": 6,
+            "name": "Mega Chicken",
+            "category": "Restaurant",
+            "description": "A fast-food chain specializing in fried chicken and sides.",
+            "location": {
+                "address": "25 Olu Obasanjo Road, Port Harcourt, Rivers State",
+                "city": "Port Harcourt",
+                "state": "Rivers State",
+                "country": "Nigeria",
+                "coordinates": {
+                    "latitude": 4.8176,
+                    "longitude": 7.0445
+                }
+            },
+            "contact": {
+                "phone": "+234 816 789 0123",
+                "email": "info@megachicken.com",
+                "website": "https://megachicken.com"
+            },
+            "capacity": {
+                "customers": 80
+            },
+            "pricing": {
+                "currency": "NGN",
+                "min": 1000,
+                "max": 8000,
+                "priceType": "per meal"
+            },
+            "rating": {
+                "average": 4.1,
+                "totalReviews": 92
+            },
+            "amenities": [
+                "Drive-Thru",
+                "WiFi",
+                "Parking",
+                "Takeout"
+            ],
+            "images": [
+                "/images/megachicken-ph-1.jpg",
+                "/images/megachicken-ph-2.jpg"
+            ],
+            "testimonials": [
+                {
+                    "name": "Tunde Adewale",
+                    "rating": 4,
+                    "comment": "Great fried chicken and fast service!"
+                },
+                {
+                    "name": "Nkechi Okoro",
+                    "rating": 3,
+                    "comment": "Portions could be larger for the price."
+                }
+            ],
+            "openingHours": {
+                "monday": "11AM–10PM",
+                "tuesday": "11AM–10PM",
+                "wednesday": "11AM–10PM",
+                "thursday": "11AM–10PM",
+                "friday": "11AM–11PM",
+                "saturday": "11AM–11PM",
+                "sunday": "11AM–10PM"
+            },
+            "featured": false
+        },
+        {
+            "id": 7,
+            "name": "The Grill Restaurant",
+            "category": "Restaurant",
+            "description": "A restaurant specializing in grilled meats and Nigerian delicacies.",
+            "location": {
+                "address": "15 Ikwerre Road, Port Harcourt, Rivers State",
+                "city": "Port Harcourt",
+                "state": "Rivers State",
+                "country": "Nigeria",
+                "coordinates": {
+                    "latitude": 4.8139,
+                    "longitude": 7.0551
+                }
+            },
+            "contact": {
+                "phone": "+234 823 456 7890",
+                "email": "reservations@thegrill.com",
+                "website": "https://thegrill.com"
+            },
+            "capacity": {
+                "customers": 90
+            },
+            "pricing": {
+                "currency": "NGN",
+                "min": 2500,
+                "max": 18000,
+                "priceType": "per meal"
+            },
+            "rating": {
+                "average": 4.5,
+                "totalReviews": 85
+            },
+            "amenities": [
+                "Outdoor Seating",
+                "WiFi",
+                "Parking",
+                "Live Music (Weekends)"
+            ],
+            "images": [
+                "/images/thegrill-ph-1.jpg",
+                "/images/thegrill-ph-2.jpg"
+            ],
+            "testimonials": [
+                {
+                    "name": "Emeka Nwosu",
+                    "rating": 5,
+                    "comment": "Best grilled meat in town!"
+                },
+                {
+                    "name": "Amina Yusuf",
+                    "rating": 4,
+                    "comment": "Cozy place with excellent service."
+                }
+            ],
+            "openingHours": {
+                "monday": "12PM–11PM",
+                "tuesday": "12PM–11PM",
+                "wednesday": "12PM–11PM",
+                "thursday": "12PM–11PM",
+                "friday": "12PM–12AM",
+                "saturday": "12PM–12AM",
+                "sunday": "12PM–11PM"
+            },
+            "featured": true
+        },
+        {
+            "id": 8,
+            "name": "The Family Restaurant",
+            "category": "Restaurant",
+            "description": "A family-friendly restaurant offering a variety of local and continental dishes.",
+            "location": {
+                "address": "20 Aba Road, Port Harcourt, Rivers State",
+                "city": "Port Harcourt",
+                "state": "Rivers State",
+                "country": "Nigeria",
+                "coordinates": {
+                    "latitude": 4.8195,
+                    "longitude": 7.0534
+                }
+            },
+            "contact": {
+                "phone": "+234 830 123 4567",
+                "email": "hello@thefamilyrestaurant.com",
+                "website": "https://thefamilyrestaurant.com"
+            },
+            "capacity": {
+                "customers": 110
+            },
+            "pricing": {
+                "currency": "NGN",
+                "min": 1800,
+                "max": 10000,
+                "priceType": "per meal"
+            },
+            "rating": {
+                "average": 4.4,
+                "totalReviews": 72
+            },
+            "amenities": [
+                "Kids' Menu",
+                "Outdoor Seating",
+                "WiFi",
+                "Parking"
+            ],
+            "images": [
+                "/images/thefamilyrestaurant-ph-1.jpg",
+                "/images/thefamilyrestaurant-ph-2.jpg"
+            ],
+            "testimonials": [
+                {
+                    "name": "Chinwe Okoro",
+                    "rating": 5,
+                    "comment": "Perfect for family outings!"
+                },
+                {
+                    "name": "Ibrahim Sanni",
+                    "rating": 4,
+                    "comment": "Great food and kid-friendly environment."
+                }
+            ],
+            "openingHours": {
+                "monday": "11AM–10PM",
+                "tuesday": "11AM–10PM",
+                "wednesday": "11AM–10PM",
+                "thursday": "11AM–10PM",
+                "friday": "11AM–11PM",
+                "saturday": "11AM–11PM",
+                "sunday": "11AM–10PM"
+            },
+            "featured": false
+        },
+        {
+            "id": 9,
+            "name": "Cappa Da Silva",
+            "category": "Cafe",
+            "description": "A cozy café known for its coffee, pastries, and relaxed ambiance.",
+            "location": {
+                "address": "22 Olu Obasanjo Road, Port Harcourt, Rivers State",
+                "city": "Port Harcourt",
+                "state": "Rivers State",
+                "country": "Nigeria",
+                "coordinates": {
+                    "latitude": 4.8167,
+                    "longitude": 7.0432
+                }
+            },
+            "contact": {
+                "phone": "+234 810 123 4567",
+                "email": "info@cappadasilva.com",
+                "website": "https://cappadasilva.com"
+            },
+            "capacity": {
+                "customers": 50
+            },
+            "pricing": {
+                "currency": "NGN",
+                "min": 500,
+                "max": 3500,
+                "priceType": "per item"
+            },
+            "rating": {
+                "average": 4.7,
+                "totalReviews": 63
+            },
+            "amenities": [
+                "Free WiFi",
+                "Outdoor Seating",
+                "WiFi",
+                "Parking"
+            ],
+            "images": [
+                "/images/cappadasilva-ph-1.jpg",
+                "/images/cappadasilva-ph-2.jpg"
+            ],
+            "testimonials": [
+                {
+                    "name": "Ngozi Eze",
+                    "rating": 5,
+                    "comment": "Best coffee in Port Harcourt!"
+                },
+                {
+                    "name": "Tunde Adebayo",
+                    "rating": 4,
+                    "comment": "Cozy and perfect for work or relaxation."
+                }
+            ],
+            "openingHours": {
+                "monday": "7AM–8PM",
+                "tuesday": "7AM–8PM",
+                "wednesday": "7AM–8PM",
+                "thursday": "7AM–8PM",
+                "friday": "7AM–9PM",
+                "saturday": "7AM–9PM",
+                "sunday": "7AM–8PM"
+            },
+            "featured": true
+        },
+        {
+            "id": 10,
+            "name": "Big Treat Bakery",
+            "category": "Cafe",
+            "description": "A bakery offering fresh pastries, bread, and coffee in a welcoming setting.",
+            "location": {
+                "address": "5 Ikwerre Road, Port Harcourt, Rivers State",
+                "city": "Port Harcourt",
+                "state": "Rivers State",
+                "country": "Nigeria",
+                "coordinates": {
+                    "latitude": 4.8143,
+                    "longitude": 7.0556
+                }
+            },
+            "contact": {
+                "phone": "+234 814 567 8901",
+                "email": "hello@bigtreatbakery.com",
+                "website": "https://bigtreatbakery.com"
+            },
+            "capacity": {
+                "customers": 40
+            },
+            "pricing": {
+                "currency": "NGN",
+                "min": 300,
+                "max": 2500,
+                "priceType": "per item"
+            },
+            "rating": {
+                "average": 4.5,
+                "totalReviews": 58
+            },
+            "amenities": [
+                "Free WiFi",
+                "Outdoor Seating",
+                "WiFi",
+                "Parking"
+            ],
+            "images": [
+                "/images/bigtreatbakery-ph-1.jpg",
+                "/images/bigtreatbakery-ph-2.jpg"
+            ],
+            "testimonials": [
+                {
+                    "name": "Adaeze Okeke",
+                    "rating": 5,
+                    "comment": "Fresh pastries and great coffee!"
+                },
+                {
+                    "name": "Chidi Nwosu",
+                    "rating": 4,
+                    "comment": "Lovely place for breakfast."
+                }
+            ],
+            "openingHours": {
+                "monday": "6AM–8PM",
+                "tuesday": "6AM–8PM",
+                "wednesday": "6AM–8PM",
+                "thursday": "6AM–8PM",
+                "friday": "6AM–9PM",
+                "saturday": "6AM–9PM",
+                "sunday": "6AM–8PM"
+            },
+            "featured": true
+        },
+        {
+            "id": 11,
+            "name": "The Place Lounge",
+            "category": "Cafe",
+            "description": "A stylish lounge offering cocktails, snacks, and a vibrant atmosphere.",
+            "location": {
+                "address": "12 Olu Obasanjo Road, Port Harcourt, Rivers State",
+                "city": "Port Harcourt",
+                "state": "Rivers State",
+                "country": "Nigeria",
+                "coordinates": {
+                    "latitude": 4.8165,
+                    "longitude": 7.0439
+                }
+            },
+            "contact": {
+                "phone": "+234 818 901 2345",
+                "email": "contact@theplacelounge.com",
+                "website": "https://theplacelounge.com"
+            },
+            "capacity": {
+                "customers": 60
+            },
+            "pricing": {
+                "currency": "NGN",
+                "min": 1000,
+                "max": 8000,
+                "priceType": "per item"
+            },
+            "rating": {
+                "average": 4.3,
+                "totalReviews": 45
+            },
+            "amenities": [
+                "Free WiFi",
+                "Outdoor Seating",
+                "WiFi",
+                "Parking",
+                "Live Music"
+            ],
+            "images": [
+                "/images/theplacelounge-ph-1.jpg",
+                "/images/theplacelounge-ph-2.jpg"
+            ],
+            "testimonials": [
+                {
+                    "name": "Emeka Okoro",
+                    "rating": 5,
+                    "comment": "Amazing cocktails and atmosphere!"
+                },
+                {
+                    "name": "Funmi Adewale",
+                    "rating": 4,
+                    "comment": "Great place for evening drinks."
+                }
+            ],
+            "openingHours": {
+                "monday": "5PM–12AM",
+                "tuesday": "5PM–12AM",
+                "wednesday": "5PM–12AM",
+                "thursday": "5PM–1AM",
+                "friday": "5PM–2AM",
+                "saturday": "5PM–2AM",
+                "sunday": "5PM–12AM"
+            },
+            "featured": false
+        },
+        {
+            "id": 12,
+            "name": "Sweet Sensation",
+            "category": "Cafe",
+            "description": "A dessert café known for its delicious cakes, ice cream, and beverages.",
+            "location": {
+                "address": "10 Ikwerre Road, Port Harcourt, Rivers State",
+                "city": "Port Harcourt",
+                "state": "Rivers State",
+                "country": "Nigeria",
+                "coordinates": {
+                    "latitude": 4.8141,
+                    "longitude": 7.0562
+                }
+            },
+            "contact": {
+                "phone": "+234 827 890 1234",
+                "email": "hello@sweetsensation.com",
+                "website": "https://sweetsensation.com"
+            },
+            "capacity": {
+                "customers": 50
+            },
+            "pricing": {
+                "currency": "NGN",
+                "min": 400,
+                "max": 3000,
+                "priceType": "per item"
+            },
+            "rating": {
+                "average": 4.6,
+                "totalReviews": 52
+            },
+            "amenities": [
+                "Free WiFi",
+                "Outdoor Seating",
+                "WiFi",
+                "Parking"
+            ],
+            "images": [
+                "/images/sweetsensation-ph-1.jpg",
+                "/images/sweetsensation-ph-2.jpg"
+            ],
+            "testimonials": [
+                {
+                    "name": "Zainab Ibrahim",
+                    "rating": 5,
+                    "comment": "Best cakes in town!"
+                },
+                {
+                    "name": "Chidi Okoro",
+                    "rating": 4,
+                    "comment": "Perfect spot for dessert lovers."
+                }
+            ],
+            "openingHours": {
+                "monday": "8AM–10PM",
+                "tuesday": "8AM–10PM",
+                "wednesday": "8AM–10PM",
+                "thursday": "8AM–10PM",
+                "friday": "8AM–11PM",
+                "saturday": "8AM–11PM",
+                "sunday": "8AM–10PM"
+            },
+            "featured": false
+        },
+        {
+            "id": 13,
+            "name": "Garden City Waterfront",
+            "category": "Attraction",
+            "description": "A scenic waterfront with beautiful views, restaurants, and relaxation spots.",
+            "location": {
+                "address": "Waterfront Road, Port Harcourt, Rivers State",
+                "city": "Port Harcourt",
+                "state": "Rivers State",
+                "country": "Nigeria",
+                "coordinates": {
+                    "latitude": 4.8242,
+                    "longitude": 7.0351
+                }
+            },
+            "contact": {
+                "phone": "+234 802 345 6789",
+                "email": "info@gardencitywaterfront.com",
+                "website": "https://gardencitywaterfront.com"
+            },
+            "capacity": {
+                "visitors": 1000
+            },
+            "pricing": {
+                "currency": "NGN",
+                "min": 0,
+                "max": 5000,
+                "priceType": "free (donations welcome)"
+            },
+            "rating": {
+                "average": 4.6,
+                "totalReviews": 95
+            },
+            "amenities": [
+                "Outdoor Seating",
+                "WiFi",
+                "Parking",
+                "Scenic Views"
+            ],
+            "images": [
+                "/images/gardencitywaterfront-ph-1.jpg",
+                "/images/gardencitywaterfront-ph-2.jpg"
+            ],
+            "testimonials": [
+                {
+                    "name": "Ngozi Eze",
+                    "rating": 5,
+                    "comment": "Beautiful sunset views!"
+                },
+                {
+                    "name": "Tunde Adebayo",
+                    "rating": 4,
+                    "comment": "Great place for a relaxing walk."
+                }
+            ],
+            "openingHours": {
+                "monday": "6AM–10PM",
+                "tuesday": "6AM–10PM",
+                "wednesday": "6AM–10PM",
+                "thursday": "6AM–10PM",
+                "friday": "6AM–11PM",
+                "saturday": "6AM–11PM",
+                "sunday": "6AM–10PM"
+            },
+            "featured": true
+        },
+        {
+            "id": 14,
+            "name": "Port Harcourt Pleasure Park",
+            "category": "Attraction",
+            "description": "An amusement park with rides, games, and entertainment for all ages.",
+            "location": {
+                "address": "Aba Road, Port Harcourt, Rivers State",
+                "city": "Port Harcourt",
+                "state": "Rivers State",
+                "country": "Nigeria",
+                "coordinates": {
+                    "latitude": 4.821,
+                    "longitude": 7.0589
+                }
+            },
+            "contact": {
+                "phone": "+234 824 567 8901",
+                "email": "info@pleasurepark.com",
+                "website": "https://pleasurepark.com"
+            },
+            "capacity": {
+                "visitors": 2000
+            },
+            "pricing": {
+                "currency": "NGN",
+                "min": 1000,
+                "max": 5000,
+                "priceType": "entry fee"
+            },
+            "rating": {
+                "average": 4.7,
+                "totalReviews": 123
+            },
+            "amenities": [
+                "Rides",
+                "Games",
+                "Outdoor Seating",
+                "WiFi",
+                "Parking"
+            ],
+            "images": [
+                "/images/pleasurepark-ph-1.jpg",
+                "/images/pleasurepark-ph-2.jpg"
+            ],
+            "testimonials": [
+                {
+                    "name": "Chinwe Okoro",
+                    "rating": 5,
+                    "comment": "Kids loved the rides!"
+                },
+                {
+                    "name": "Ibrahim Sanni",
+                    "rating": 4,
+                    "comment": "Great place for family fun."
+                }
+            ],
+            "openingHours": {
+                "monday": "10AM–8PM",
+                "tuesday": "10AM–8PM",
+                "wednesday": "10AM–8PM",
+                "thursday": "10AM–8PM",
+                "friday": "10AM–9PM",
+                "saturday": "10AM–9PM",
+                "sunday": "10AM–8PM"
+            },
+            "featured": true
+        },
+        {
+            "id": 15,
+            "name": "Port Harcourt Tourist Beach",
+            "category": "Attraction",
+            "description": "A beautiful beach with golden sand and clear waters, perfect for relaxation.",
+            "location": {
+                "address": "Tourist Beach Road, Port Harcourt, Rivers State",
+                "city": "Port Harcourt",
+                "state": "Rivers State",
+                "country": "Nigeria",
+                "coordinates": {
+                    "latitude": 4.789,
+                    "longitude": 6.9987
+                }
+            },
+            "contact": {
+                "phone": "+234 815 678 9012",
+                "email": "info@touristbeach.com",
+                "website": "https://touristbeach.com"
+            },
+            "capacity": {
+                "visitors": 5000
+            },
+            "pricing": {
+                "currency": "NGN",
+                "min": 0,
+                "max": 2000,
+                "priceType": "free (donations welcome)"
+            },
+            "rating": {
+                "average": 4.6,
+                "totalReviews": 89
+            },
+            "amenities": [
+                "Scenic Views",
+                "Outdoor Seating",
+                "WiFi",
+                "Parking"
+            ],
+            "images": [
+                "/images/touristbeach-ph-1.jpg",
+                "/images/touristbeach-ph-2.jpg"
+            ],
+            "testimonials": [
+                {
+                    "name": "Adaeze Okeke",
+                    "rating": 5,
+                    "comment": "Perfect for a weekend getaway!"
+                },
+                {
+                    "name": "Chidi Nwosu",
+                    "rating": 4,
+                    "comment": "Great for swimming and picnics."
+                }
+            ],
+            "openingHours": {
+                "monday": "6AM–6PM",
+                "tuesday": "6AM–6PM",
+                "wednesday": "6AM–6PM",
+                "thursday": "6AM–6PM",
+                "friday": "6AM–7PM",
+                "saturday": "6AM–7PM",
+                "sunday": "6AM–6PM"
+            },
+            "featured": true
+        },
+        {
+            "id": 16,
+            "name": "Nkpogu Beach",
+            "category": "Attraction",
+            "description": "A serene beach with calm waters, ideal for swimming and picnics.",
+            "location": {
+                "address": "Nkpogu, Port Harcourt, Rivers State",
+                "city": "Port Harcourt",
+                "state": "Rivers State",
+                "country": "Nigeria",
+                "coordinates": {
+                    "latitude": 4.7789,
+                    "longitude": 6.9876
+                }
+            },
+            "contact": {
+                "phone": "+234 820 123 4567",
+                "email": "info@nkpogubeach.com",
+                "website": "https://nkpogubeach.com"
+            },
+            "capacity": {
+                "visitors": 3000
+            },
+            "pricing": {
+                "currency": "NGN",
+                "min": 0,
+                "max": 1000,
+                "priceType": "free (donations welcome)"
+            },
+            "rating": {
+                "average": 4.5,
+                "totalReviews": 78
+            },
+            "amenities": [
+                "Scenic Views",
+                "Outdoor Seating",
+                "WiFi",
+                "Parking"
+            ],
+            "images": [
+                "/images/nkpogubeach-ph-1.jpg",
+                "/images/nkpogubeach-ph-2.jpg"
+            ],
+            "testimonials": [
+                {
+                    "name": "Emeka Okoro",
+                    "rating": 5,
+                    "comment": "Peaceful and beautiful!"
+                },
+                {
+                    "name": "Funmi Adewale",
+                    "rating": 4,
+                    "comment": "Great for a quiet day out."
+                }
+            ],
+            "openingHours": {
+                "monday": "6AM–6PM",
+                "tuesday": "6AM–6PM",
+                "wednesday": "6AM–6PM",
+                "thursday": "6AM–6PM",
+                "friday": "6AM–7PM",
+                "saturday": "6AM–7PM",
+                "sunday": "6AM–6PM"
+            },
+            "featured": false
+        }
+    ]
+}

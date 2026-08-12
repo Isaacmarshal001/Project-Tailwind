@@ -18,6 +18,7 @@ import Newslettersections from './Newslettersections.jsx'
 import Newslettersections1 from './Newslettersections1.jsx'
 import Statssection from './Statssection.jsx'
 import Statssection1 from './Statssection1.jsx'
+import Project from './Project.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -39,6 +40,7 @@ createRoot(document.getElementById('root')).render(
         <Route path="/Newslettersections1" element={<Newslettersections1 />} />
         <Route path="/Statssection" element={<Statssection />} />
         <Route path="/Statssection1" element={<Statssection1 />} />
+        <Route path="/Project" element={<Project />} />
       </Routes>
     </Router>
   </StrictMode>
