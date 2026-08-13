@@ -44,7 +44,7 @@
                 "24/7 Room Service"
             ],
             "images": [
-                "../../public/locations/The Presidential Hotel/The Presidential Hotel.jpg"
+                "public/locations/The Presidential Hotel/The Presidential Hotel.jpg"
             ],
             "testimonials": [
                 {
@@ -111,7 +111,7 @@
                 "24/7 Room Service"
             ],
             "images": [
-                "../../public/locations/de royal/de royal.jpeg"
+                "public/locations/de royal/de royal.jpeg"
             ],
             "testimonials": [
                 {
@@ -176,7 +176,7 @@
                 "Live Music (Weekends)"
             ],
             "images": [
-                "../../public/RESTURANTS/THE PLACE RESTURANT/The Place Restaurant 1.jpg"
+                "public/RESTURANTS/THE PLACE RESTURANT/The Place Restaurant 1.jpg"
             ],
             "testimonials": [
                 {
@@ -241,7 +241,7 @@
                 "Live Music (Weekends)"
             ],
             "images": [
-                "../../public/RESTURANTS/THE GRILLS RESTURANT/The Grills Resturant 1.jpg"
+                "public/RESTURANTS/THE GRILLS RESTURANT/The Grills Resturant 1.jpg"
             ],
             "testimonials": [
                 {
@@ -306,7 +306,7 @@
                 "Parking"
             ],
             "images": [
-                "../../public/RESTURANTS/THE FAMILY RESTURANT/The Family Restaurant 1.webp"
+                "public/RESTURANTS/THE FAMILY RESTURANT/The Family Restaurant 1.webp"
             ],
             "testimonials": [
                 {
@@ -371,7 +371,7 @@
                 "Parking"
             ],
             "images": [
-                "../../public/Cafes/big_treat_bakery/big_treat_bakery1.png"
+                "public/Cafes/big_treat_bakery/big_treat_bakery1.png"
             ],
             "testimonials": [
                 {
@@ -437,7 +437,7 @@
                 "Live Music"
             ],
             "images": [
-                "../../public/Cafes/de_place_lounge/de_place_lounge1.png"
+                "public/Cafes/de_place_lounge/de_place_lounge1.png"
             ],
             "testimonials": [
                 {
@@ -502,7 +502,7 @@
                 "Scenic Views"
             ],
             "images": [
-                "../../public/Attractions/Garden city waterfront/garden city waterfront.jfif"
+                "public/Attractions/Garden city waterfront/garden city waterfront.jfif"
             ],
             "testimonials": [
                 {
@@ -568,7 +568,7 @@
                 "Parking"
             ],
             "images": [
-                "../../public/Attractions/Port Harcourt Pleasure Park/PortHarcourtPleasurePark1.jpg"
+                "public/Attractions/Port Harcourt Pleasure Park/PortHarcourtPleasurePark1.jpg"
             ],
             "testimonials": [
                 {
@@ -633,7 +633,7 @@
                 "Parking"
             ],
             "images": [
-                "../../public/Attractions/Port Harcourt Tourist Beach/PortHarcourtTouristBeach1.jfif"
+                "public/Attractions/Port Harcourt Tourist Beach/PortHarcourtTouristBeach1.jfif"
             ],
             "testimonials": [
                 {
@@ -698,7 +698,7 @@
                 "Parking"
             ],
             "images": [
-                "../../public/Attractions/Nkpogu Beach/Nkpogu Beach.jfif"
+                "public/Attractions/Nkpogu Beach/Nkpogu Beach.jfif"
             ],
             "testimonials": [
                 {
@@ -765,7 +765,7 @@
                 "Event Center"
             ],
             "images": [
-                "../../public/locations/Julirose Hotel and Suites/Julirose Hotel and Suites.avif"
+                "public/locations/Julirose Hotel and Suites/Julirose Hotel and Suites.avif"
             ],
             "testimonials": [
                 {
@@ -854,7 +854,7 @@
                 "Swimming"
             ],
             "images": [
-                "../../public/locations/Grand Orchid Hotel/Grand Orchid Hotel.jpeg"
+                "public/locations/Grand Orchid Hotel/Grand Orchid Hotel.jpeg"
             ],
             "testimonials": [
                 {
@@ -948,7 +948,7 @@
                 "Smoke-free property policy"
             ],
             "images": [
-                "../../public/locations/Garden City Hotels/Garden City Hotels.jpeg"
+                "public/locations/Garden City Hotels/Garden City Hotels.jpeg"
             ],
             "testimonials": [
                 {
@@ -1038,7 +1038,7 @@
                 "Orthopaedic Mattress"
             ],
             "images": [
-                "../../public/locations/Gordonsville Escape Boutique Hotel & Spa/Gordonsville Escape Boutique Hotel & Spa.jpeg"
+                "public/locations/Gordonsville Escape Boutique Hotel & Spa/Gordonsville Escape Boutique Hotel & Spa.jpeg"
             ],
             "testimonials": [
                 {
@@ -1137,7 +1137,7 @@
                 "Outdoor Tennis Court"
             ],
             "images": [
-                "../../public/locations/Heliconia Park Port Harcourt Hote/Heliconia Park Port Harcourt Hotel.jpeg"
+                "public/locations/Heliconia Park Port Harcourt Hote/Heliconia Park Port Harcourt Hotel.jpeg"
             ],
             "testimonials": [
                 {
@@ -1223,7 +1223,7 @@
                 "Bar and lounge area"
             ],
             "images": [
-                "../../public/locations/Asia Town Hotel/Asia Town Hotel.jfif"
+                "public/locations/Asia Town Hotel/Asia Town Hotel.jfif"
             ],
             "testimonials": [
                 "Asia Town is an amazing restaurant located in Port Harcourt with beautiful aesthetics, top-notch service, and delicious food that makes it perfect for special occasions."
@@ -1273,7 +1273,7 @@
                 "Air conditioning"
             ],
             "images": [
-                "../../public/RESTURANTS/ASIAN TOWN/Asia Town 1.jpg"
+                "public/RESTURANTS/ASIAN TOWN/Asia Town 1.jpg"
             ],
             "testimonials": [
                 "Micheal Gardens is the perfect place for a special night out in Port Harcourt, offering a wide selection of dishes and drinks with an ambiance that is second to none."
@@ -1329,7 +1329,7 @@
                 "Ample parking space within Genesis Center"
             ],
             "images": [
-                "../../public/RESTURANTS/SKY BAR PHC/Sky Bar (Sky Bar PHC) 1.webp"
+                "public/RESTURANTS/SKY BAR PHC/Sky Bar (Sky Bar PHC) 1.webp"
             ],
             "testimonials": [
                 "Never been to a beautiful and comfortable place as Skybar. Everything there is so good, the natural air flows at the terrace, and it has the best services in Port Harcourt."
@@ -1378,7 +1378,7 @@
                 "Art and cultural display"
             ],
             "images": [
-                "../../public/RESTURANTS/NATIVE TRAY/Native Tray 1.webp"
+                "public/RESTURANTS/NATIVE TRAY/Native Tray 1.webp"
             ],
             "testimonials": [
                 "Native Tray is a fantastic spot in Port Harcourt for mouth-watering traditional meals, superb ambiance, and wonderful cultural music."
@@ -1428,7 +1428,7 @@
                 "Bar and barbecue station"
             ],
             "images": [
-                "../../public/RESTURANTS/PIANO CLUB RESTURANT/Piano Club Restaurant 1.jpg"
+                "public/RESTURANTS/PIANO CLUB RESTURANT/Piano Club Restaurant 1.jpg"
             ],
             "testimonials": [
                 "Piano Club Restaurant is a charming spot with a grand, airy atmosphere, friendly staff, great food, and the perfect setting to cool off with family and friends."
@@ -1499,7 +1499,7 @@
                 "Delivery"
             ],
             "images": [
-                "../../public/Cafes/cafe_one_ph/cafe_one_ph1.png"
+                "public/Cafes/cafe_one_ph/cafe_one_ph1.png"
             ],
             "imageSources": [
                 {
@@ -1639,7 +1639,7 @@
                 }
             ],
             "images": [
-                "../../public/Cafes/faarah_coffee_lounge/faarah_coffee_lounge1.png"
+                "public/Cafes/faarah_coffee_lounge/faarah_coffee_lounge1.png"
             ],
             "imageSources": [
                 {
@@ -1767,12 +1767,12 @@
                 "Child Friendly"
             ],
             "images": [
-                "../../public/Cafes/woodhouse_cafe/woodhouse_cafe1.png"
+                "public/Cafes/woodhouse_cafe/woodhouse_cafe1.png"
             ],
             "imageSources": [
                 {
                     "source": "Google Maps",
-                    "url": "../../public/Cafes/woodhouse_cafe/woodhouse_cafe1.png",
+                    "url": "public/Cafes/woodhouse_cafe/woodhouse_cafe1.png",
                     "type": "home image"
                 },
                 {
@@ -1782,7 +1782,7 @@
                 },
                 {
                     "source": "Google Maps",
-                    "url": "../../public/Cafes/woodhouse_cafe/woodhouse_cafe2.png",
+                    "url": "public/Cafes/woodhouse_cafe/woodhouse_cafe2.png",
                     "type": "official image"
                 }
             ],
@@ -1893,17 +1893,17 @@
                 "Family Friendly"
             ],
             "images": [
-                "../../public/Cafes/CornerStore_Cafe/CornerStore_Cafe1.png"
+                "public/Cafes/CornerStore_Cafe/CornerStore_Cafe1.png"
             ],
             "imageSources": [
                 {
                     "source": "MenuList",
-                    "url": "../../public/Cafes/CornerStore_Cafe/CornerStore_Cafe1.png",
+                    "url": "public/Cafes/CornerStore_Cafe/CornerStore_Cafe1.png",
                     "type": "home image"
                 },
                 {
                     "source": "Tripadvisor",
-                    "url": "../../public/Cafes/CornerStore_Cafe/CornerStore_Cafe1.png",
+                    "url": "public/Cafes/CornerStore_Cafe/CornerStore_Cafe1.png",
                     "type": "official image"
                 },
                 {
@@ -2102,7 +2102,7 @@
                 "Football Viewing"
             ],
             "images": [
-                "../../public/Cafes/BoomTown_Restaurant_&_Coffee_Shop_PHC/BoomTown_Restaurant_&_Coffee_Shop_PHC1.png"
+                "public/Cafes/BoomTown_Restaurant_&_Coffee_Shop_PHC/BoomTown_Restaurant_&_Coffee_Shop_PHC1.png"
             ],
             "testimonials": [
                 {
@@ -2199,7 +2199,7 @@
                 "Sit-out Area"
             ],
             "images": [
-                "../../public/Attractions/Rivers State Museum/RiversStateMuseum1.jfif"
+                "public/Attractions/Rivers State Museum/RiversStateMuseum1.jfif"
             ],
             "testimonials": [],
             "openingHours": {
@@ -2254,7 +2254,7 @@
                 "Baseball/Softball Field"
             ],
             "images": [
-                "../../public/Attractions/Isaac Boro Garden Park/IsaacBoroGardenPark1.png"
+                "public/Attractions/Isaac Boro Garden Park/IsaacBoroGardenPark1.png"
             ],
             "testimonials": [],
             "openingHours": {
@@ -2312,7 +2312,7 @@
                 "Parking"
             ],
             "images": [
-                "../../public/Attractions/Garden City Amusement Park/GardenCityAmusementPark1.jfif"
+                "public/Attractions/Garden City Amusement Park/GardenCityAmusementPark1.jfif"
             ],
             "testimonials": [],
             "openingHours": {
