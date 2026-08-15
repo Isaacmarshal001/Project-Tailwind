@@ -8,7 +8,7 @@ const Project = () => {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        fetch('public/data/places(1).json')
+        fetch('./public/data/places(1).json')
             .then((response) => {
                 if (!response.ok) {
                     throw new Error('Failed to fetch data');
