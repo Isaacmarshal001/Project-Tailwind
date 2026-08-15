@@ -8,7 +8,7 @@ const Project = () => {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        fetch('public/data/places.json')
+        fetch('public/data/places(1).json')
             .then((response) => {
                 if (!response.ok) {
                     throw new Error('Failed to fetch data');
@@ -84,7 +84,7 @@ const Project = () => {
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
                 {filteredPlaces.map((place) => (
                     <div key={place.id} className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
-                        
+
                         <h2 className="text-xl font-bold mb-2">{place.name}</h2>
                         <p className="text-gray-600 mb-4">{place.description}</p>
                         <div className="mb-4">
