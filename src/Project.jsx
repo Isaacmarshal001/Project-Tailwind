@@ -1,5 +1,33 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router';
+
+const formatPricing = (pricing) => {
+    if (!pricing) return 'Not available';
+    if (typeof pricing === 'string') return pricing;
+
+    const { currency, min, max, priceType } = pricing;
+    const range = [min, max].filter((value) => value !== undefined && value !== null).join(' - ');
+    return [currency, range, priceType ? `(${priceType})` : ''].filter(Boolean).join(' ');
+};
+
+const formatRating = (rating) => {
+    if (!rating) return 'Not available';
+    if (typeof rating === 'string') return rating;
+
+    const average = rating.average ?? 'N/A';
+    const reviews = rating.totalReviews ?? 'N/A';
+    return `${average} (${reviews} reviews)`;
+};
+
+const getWebsite = (contact) => {
+    if (!contact) return null;
+    if (contact.website) return contact.website;
+    if (Array.isArray(contact.websites) && contact.websites.length > 0) return contact.websites[0];
+    if (contact.socialMediaAccount) return contact.socialMediaAccount;
+    if (contact.instagram) return contact.instagram;
+    return null;
+};
+
+const isFeatured = (place) => Boolean(place.featured ?? place.features);
 
 const Project = () => {
     const [places, setPlaces] = useState([]);
@@ -8,20 +36,22 @@ const Project = () => {
     const [error, setError] = useState(null);
 
     useEffect(() => {
-        fetch('./public/data/places(1).json')
+        fetch('/data/places(1).json')
             .then((response) => {
                 if (!response.ok) {
-                    throw new Error('Failed to fetch data');
+                    throw new Error(`Failed to fetch places data (${response.status})`);
                 }
                 return response.json();
             })
             .then((data) => {
-                setPlaces(data.places);
-                setFilteredPlaces(data.places);
-                setLoading(false);
+                const loadedPlaces = Array.isArray(data.places) ? data.places : [];
+                setPlaces(loadedPlaces);
+                setFilteredPlaces(loadedPlaces);
             })
             .catch((error) => {
                 setError(error.message);
+            })
+            .finally(() => {
                 setLoading(false);
             });
     }, []);
@@ -30,7 +60,7 @@ const Project = () => {
         if (category === 'all') {
             setFilteredPlaces(places);
         } else {
-            setFilteredPlaces(places.filter((place) => place.category.toLowerCase() === category));
+            setFilteredPlaces(places.filter((place) => place.category?.toLowerCase() === category));
         }
     };
 
@@ -46,7 +76,6 @@ const Project = () => {
         <div className="max-w-6xl mx-auto p-8">
             <h1 className="text-3xl font-bold text-center mb-8">Mainplaces Data Test (React)</h1>
 
-            {/* Filter Buttons */}
             <div className="flex flex-wrap gap-4 mb-6 justify-center">
                 <button
                     onClick={() => filterByCategory('all')}
@@ -80,69 +109,59 @@ const Project = () => {
                 </button>
             </div>
 
-            {/* Data Container */}
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-                {filteredPlaces.map((place) => (
-                    <div key={place.id} className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                {filteredPlaces.map((place) => {
+                    const website = getWebsite(place.contact);
 
-                        <h2 className="text-xl font-bold mb-2">{place.name}</h2>
-                        <p className="text-gray-600 mb-4">{place.description}</p>
-                        <div className="mb-4">
-                            <span className="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full font-semibold">
-                                {place.category}
-                            </span>
+                    return (
+                        <div key={place.id} className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition-shadow">
+                            <h2 className="text-xl font-bold mb-2">{place.name}</h2>
+                            <p className="text-gray-600 mb-4">{place.description}</p>
+                            <div className="mb-4">
+                                <span className="inline-block bg-blue-100 text-blue-800 text-xs px-2 py-1 rounded-full font-semibold">
+                                    {place.category}
+                                </span>
+                            </div>
+                            <div className="mb-4">
+                                <p className="font-semibold">Location:</p>
+                                <p>{place.location?.address ?? 'Address unavailable'}, {place.location?.city ?? 'City unavailable'}</p>
+                            </div>
+                            <div className="mb-4">
+                                <p className="font-semibold">Contact:</p>
+                                <p>Phone: {place.contact?.phone ?? 'Not available'}</p>
+                                <p>Email: {place.contact?.email ?? 'Not available'}</p>
+                                {website && (
+                                    <p>
+                                        Website:{' '}
+                                        <a href={website.startsWith('http') ? website : `https://www.instagram.com/${website.replace('@', '')}/`} className="text-blue-500 hover:underline">
+                                            {website}
+                                        </a>
+                                    </p>
+                                )}
+                            </div>
+                            <div className="mb-4">
+                                <p className="font-semibold">Pricing:</p>
+                                <p>{formatPricing(place.pricing)}</p>
+                            </div>
+                            <div className="mb-4">
+                                <p className="font-semibold">Rating:</p>
+                                <p>{formatRating(place.rating)}</p>
+                            </div>
+                            <div className="mb-4">
+                                <p className="font-semibold">Amenities:</p>
+                                <ul className="list-disc list-inside">
+                                    {(place.amenities ?? []).map((amenity, index) => (
+                                        <li key={index}>{amenity}</li>
+                                    ))}
+                                </ul>
+                            </div>
+                            <div className="mb-4">
+                                <p className="font-semibold">Featured:</p>
+                                <p>{isFeatured(place) ? '✅ Yes' : '❌ No'}</p>
+                            </div>
                         </div>
-                        <div className="mb-4">
-                            <p className="font-semibold">Location:</p>
-                            <p>{place.location.address}, {place.location.city}</p>
-                        </div>
-                        <div className="mb-4">
-                            <p className="font-semibold">Contact:</p>
-                            <p>Phone: {place.contact.phone}</p>
-                            <p>Email: {place.contact.email}</p>
-                            <p>
-                                Website:{' '}
-                                <a href={place.contact.website} className="text-blue-500 hover:underline">
-                                    {place.contact.website}
-                                </a>
-                            </p>
-                        </div>
-                        <div className="mb-4">
-                            <p className="font-semibold">Pricing:</p>
-                            <p>
-                                {place.pricing.currency} {place.pricing.min} - {place.pricing.max} ({place.pricing.priceType})
-                            </p>
-                        </div>
-                        <div className="mb-4">
-                            <p className="font-semibold">Rating:</p>
-                            <p>
-                                {place.rating.average} ({place.rating.totalReviews} reviews)
-                            </p>
-                        </div>
-                        <div className="mb-4">
-                            <p className="font-semibold">Amenities:</p>
-                            <ul className="list-disc list-inside">
-                                {place.amenities.map((amenity, index) => (
-                                    <li key={index}>{amenity}</li>
-                                ))}
-                            </ul>
-                        </div>
-                        {/* <div className="mb-4">
-                            <p className="font-semibold">Opening Hours:</p>
-                            <ul className="list-disc list-inside">
-                                {Object.entries(place.openingHours).map(([day, hours]) => (
-                                    <li key={day}>
-                                        {day}: {hours}
-                                    </li>
-                                ))}
-                            </ul>
-                        </div> */}
-                        <div className="mb-4">
-                            <p className="font-semibold">Featured:</p>
-                            <p>{place.featured ? '✅ Yes' : '❌ No'}</p>
-                        </div>
-                    </div>
-                ))}
+                    );
+                })}
             </div>
         </div>
     );
