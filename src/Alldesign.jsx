@@ -14,6 +14,8 @@ import Newslettersections1 from './Newslettersections1';
 import Statsection from './Statssection';
 import Statsection1 from './Statssection1';
 import Project from './Project';
+import Testimonials from './Testimonials';
+import Testimonials1 from './Testimonials1';
 import { Key } from 'lucide-react';
 
 function Alldesign() {
@@ -34,6 +36,8 @@ function Alldesign() {
         { name: "Statssection", key_page: "./Statssection" },
         { name: "Statssection1", key_page: "./Statssection1" },
         { name: "Project", key_page: "./Project" },
+        { name: "Testimonials", key_page: "./Testimonials" },
+        { name: "Testimonials1", key_page: "./Testimonials1" },
     ];
 
     return (
