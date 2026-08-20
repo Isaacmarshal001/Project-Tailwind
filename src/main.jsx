@@ -21,6 +21,8 @@ import Statssection1 from './Statssection1.jsx'
 import Project from './Project.jsx'
 import Testimonials from './Testimonials.jsx'
 import Testimonials1 from './Testimonials1.jsx'
+import Contact from './Contact.jsx'
+import Contact1 from './Contact1.jsx'
 
 createRoot(document.getElementById('root')).render(
   <StrictMode>
@@ -45,6 +47,8 @@ createRoot(document.getElementById('root')).render(
         <Route path="/Project" element={<Project />} />
         <Route path="/Testimonials" element={<Testimonials />} />
         <Route path="/Testimonials1" element={<Testimonials1 />} />
+        <Route path="/Contact" element={<Contact />} />
+        <Route path="/Contact1" element={<Contact1 />} />
       </Routes>
     </Router>
   </StrictMode>

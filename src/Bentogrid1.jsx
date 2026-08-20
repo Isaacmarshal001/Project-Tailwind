@@ -58,7 +58,7 @@ function Bentogrid1() {
                             <div class="absolute inset-px rounded-bl-4xl bg-gray-800 max-lg:rounded-bl-4xl lg:rounded-bl-4xl"></div>
                             <div class="relative flex h-full flex-col overflow-hidden rounded-bl-[calc(var(--radius-lg)+1px)] max-lg:rounded-bl-[calc(2rem+1px)] lg:rounded-bl-[calc(2rem+1px)]">
                                 <div class="@container flex flex-1 items-center max-lg:py-6 lg:pb-2">
-                                    <img src="https://tailwindcss.com/plus-assets/img/component-images/dark-bento-02-security.png" alt="" class="h-[min(152px,40cqw)] object-cover" />
+                                    <img src="https://tailwindcss.com/plus-assets/img/component-images/dark-bento-02-performance.png" alt="" class="h-[min(152px,40cqw)] object-cover" />
                                 </div>
                                 <div class="px-8 pt-8 pb-3 sm:px-10 sm:pt-10 sm:pb-0">
                                     <p class="mt-2 text-lg font-medium tracking-tight text-white max-lg:text-center">Performance</p>
