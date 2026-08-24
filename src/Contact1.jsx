@@ -6,24 +6,24 @@ import React from 'react';
 function Contact() {
     return (
         <div className='bg-black w-full min-h-screen py-9'>
-            <div className="bg-gray-900 mx-auto flex items-start justify-between max-w-7xl border border-gray-400/50 rounded-xl min-h-screen px-6 lg:px-8">
-                <div className='flex items-start justify-center w-[48%] mt-60'>
+            <div className="bg-gray-900 mx-auto flex items-start justify-between max-w-7xl border border-gray-400/50 rounded-xl min-h-fit px-6 lg:px-8">
+                <div className='flex items-start justify-center w-[48%] mt-48'>
                     <div aria-hidden="true" className="absolute inset-x-0 -top-40 -z-10 transform-gpu overflow-hidden blur-3xl sm:-top-80">
                         <div className="relative left-1/2 -z-10 aspect-1155/678 w-144.5 max-w-none -translate-x-1/2 rotate-30 bg-linear-to-tr from-[#ff80b5] to-[#9089fc] opacity-20 sm:left-[calc(50%-40rem)] sm:w-288.75"></div>
                     </div>
                     <div className="flex flex-col items-start justify-start gap-4 text-left max-w-[90%]">
-                        <h2 className="text-4xl font-semibold tracking-tight text-balance text-white sm:text-5xl">Get in touch</h2>
-                        <p className="mt-4 text-lg/8 text-gray-400 font-medium">Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt integer elementum id sem. Arcu sed malesuada et magna.</p>
-                        <p className="mt-4 text-lg/8 text-gray-400 flex items-start justify-start gap-4 font-medium"><Building2Icon /> <span>545 Mavis Island
+                        <h2 className="text-4xl font-semibold tracking-tight text-white">Get in touch</h2>
+                        <p className="mt-4 text-lg text-gray-400 font-medium">Proin volutpat consequat porttitor cras nullam gravida at. Orci molestie a eu arcu. Sed ut tincidunt integer elementum id sem. Arcu sed malesuada et magna.</p>
+                        <p className="mt-4 text-gray-400 flex items-start justify-start gap-4 font-medium"><Building2Icon /> <span>545 Mavis Island
                             <br />Chicago, IL 99191.</span></p>
-                        <p className="mt-2 text-lg/8 text-gray-400 flex items-start justify-start gap-4 font-medium"><PhoneIcon /> +1 (555) 234-5678</p>
-                        <p className="mt-2 text-lg/8 text-gray-400 flex items-start justify-start gap-4 font-medium"><Mail /> hello@example.com</p>
+                        <p className="mt-2 text-gray-400 flex items-start justify-start gap-4 font-medium"><PhoneIcon /> +1 (555) 234-5678</p>
+                        <p className="mt-2 text-gray-400 flex items-start justify-start gap-4 font-medium"><Mail /> hello@example.com</p>
                     </div>
 
                 </div>
-                <div className='border-r border-gray-600/50 mx-10 min-h-screen'>
+                <div className='border-r border-gray-600/50 mx-10 h-200'>
                 </div>
-                <div className='flex items-start justify-end w-[48%] mt-60'>
+                <div className='flex items-start justify-end w-[48%] mt-48'>
                     <form action="#" method="POST" className="mx-auto w-[95%]">
                         <div className="grid grid-cols-1 gap-x-8 gap-y-4 sm:grid-cols-2">
                             <div>
@@ -48,17 +48,7 @@ function Contact() {
                                 <label for="phone-number" className="block text-sm/6 font-semibold text-white" htmlFor="first-name">Phone number</label>
                                 <div className="mt-1">
                                     <div className="flex rounded-md bg-white/5 outline-1 -outline-offset-1 outline-white/10 has-[input:focus-within]:outline-2 has-[input:focus-within]:-outline-offset-2 has-[input:focus-within]:outline-indigo-500">
-                                        <div className="grid shrink-0 grid-cols-1 focus-within:relative">
-                                            <select id="country" name="country" autocomplete="country" aria-label="Country" className="col-start-1 row-start-1 w-full appearance-none rounded-md bg-transparent py-2 pr-7 pl-3.5 text-base text-gray-400 placeholder:text-gray-500 focus:outline-2 focus:-outline-offset-2 focus:outline-indigo-500 sm:text-sm/6">
-                                                <option>US</option>
-                                                <option>CA</option>
-                                                <option>EU</option>
-                                            </select>
-                                            <svg viewBox="0 0 16 16" fill="currentColor" data-slot="icon" aria-hidden="true" className="pointer-events-none col-start-1 row-start-1 mr-2 size-5 self-center justify-self-end text-gray-400 sm:size-4">
-                                                <path d="M4.22 6.22a.75.75 0 0 1 1.06 0L8 8.94l2.72-2.72a.75.75 0 1 1 1.06 1.06l-3.25 3.25a.75.75 0 0 1-1.06 0L4.22 7.28a.75.75 0 0 1 0-1.06Z" clip-rule="evenodd" fill-rule="evenodd" />
-                                            </svg>
-                                        </div>
-                                        <input id="phone-number" type="text" name="phone-number" placeholder="123-456-7890" className="block min-w-0 grow bg-transparent py-1.5 pr-3 pl-1 text-base text-white placeholder:text-gray-500 focus:outline-none sm:text-sm/6" />
+                                        <input id="phone-number" type="text" name="phone-number" className="block min-w-0 grow bg-transparent py-1.5 pr-3 pl-1 text-base text-white  focus:outline-none sm:text-sm/6" />
                                     </div>
                                 </div>
                             </div>
